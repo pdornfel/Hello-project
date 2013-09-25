@@ -1,3 +1,5 @@
 puts "Hello, World"
 
-puts "hell again!"
+puts "what is your name?"
+name = gets.chomp
+puts "Hello " + name + "!"
